@@ -1,4 +1,4 @@
-# Joel's Jira Dashboard
+# Jira For Product Dashboard
 
 A clean, self-hosted dashboard for **your own** Jira Cloud work. See what's stale, what's open and who's waiting on you, all on one page. Move tickets on a drag-and-drop Kanban board, and reply to comments without digging through Jira.
 
