@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+
+  --color-canvas: #f3f5fa;
+  --color-surface: #ffffff;
+  --color-line: #e5e8f0;
+  --color-line-strong: #d5dae6;
+  --color-ink: #0f172a;
+  --color-ink-2: #475569;
+  --color-ink-3: #8a94a8;
+  --color-accent: #4f46e5;
+  --color-accent-soft: #eef0ff;
+
+  /* Chart series (validated categorical order, light surface). */
+  --color-series-1: #2a78d6;
+  --color-series-2: #eb6834;
+  --color-series-3: #1baf7a;
+  --color-series-4: #eda100;
+  --color-series-5: #e87ba4;
+  --color-series-6: #008300;
+  --color-series-7: #6250d6;
+  --color-series-8: #e34948;
+
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 1px 3px rgb(15 23 42 / 0.04);
+  --shadow-lift: 0 4px 12px -2px rgb(15 23 42 / 0.08), 0 2px 4px -2px rgb(15 23 42 / 0.05);
+  --shadow-pop: 0 12px 32px -8px rgb(15 23 42 / 0.18), 0 4px 8px -4px rgb(15 23 42 / 0.08);
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+/* Slim, unobtrusive scrollbars for the scrolling panes. */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #cfd5e2 transparent;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
